@@ -16,7 +16,7 @@ void setValsToRec(TLE *tle, ElsetRec *rec);
 void parseLines(TLE *tle, char *line1, char *line2)
 {
     int i=0;
-    tle->rec.whichconst=wgs72;
+    tle->rec.whichconst=wgs84;
     // copy the lines
     strncpy(tle->line1,line1,69);
     strncpy(tle->line2,line2,69);

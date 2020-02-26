@@ -9,7 +9,7 @@
 #define twopi  (2.0*pi)
 #define deg2rad  (pi/180.0)
 
-typedef int bool;
+#include <stdbool.h>
 #define TRUE 1
 #define FALSE 0
 
